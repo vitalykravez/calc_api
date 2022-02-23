@@ -6,8 +6,8 @@ from main import CACHE, app, calc, history, welcome
 
 client = TestClient(app)
 
-# Add 50 requests
-for value in range(50):
+# Add 30 requests
+for value in range(30):
     if value % 2 == 0:
         response = client.post("/calc", json={"exp": value})
     else:
