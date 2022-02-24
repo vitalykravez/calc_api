@@ -5,7 +5,9 @@
 
 Установка:
 
-git clone -> cd calc_api
+git clone
+
+cd calc_api
 
 env\Scripts\activate(запуск виртуального окружения)
 
